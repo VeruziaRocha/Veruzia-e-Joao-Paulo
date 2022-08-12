@@ -1,0 +1,78 @@
+@font-face {
+    font-family:great vibes;
+    src: url(./fontes/GreatVibes-Regular.ttf);
+ }
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{  
+    height: 100vh;
+    width: 100vw;    
+    /* background-image: url(./imagens/fundo.jpg); */
+    background-position: center;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;    
+}
+
+.backGround{
+    width: 350px;
+    height: 350px;
+    margin-top: 50px;
+    background-image: url(./imagens/convite\ 350x492.jpg);
+    background-repeat: no-repeat;   
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: flex-end;    
+}
+
+.localizacao{
+    width: 15%;
+    height: 15%;  
+    font-family: great vibes, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+    color: rgb(9, 115, 172);      
+    margin-bottom: 35px;
+}
+
+.locFilho{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+
+.presentes{
+    width: 15%;
+    height: 15%; 
+    font-family: great vibes, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;       
+    color: rgb(9, 115, 172); 
+    margin-bottom: 35px;
+}
+
+.preFilho{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contato{
+    width: 15%;
+    height: 15%;  
+    font-family: great vibes, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+    color: rgb(9, 115, 172); 
+    margin-bottom: 35px;
+}
+
+.conFilho{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
